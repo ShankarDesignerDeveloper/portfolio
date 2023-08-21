@@ -1,0 +1,112 @@
+@font-face {
+   font-family: glyphicons-halflings-regular;
+   src:url(../media/fonts/glyphicons-halflings-regular.ttf);
+}
+@font-face {
+   font-family: helvetica-light;
+   src:url(../media/fonts/helvetica-light.ttf);
+}
+@font-face {
+   font-family: helvetica-bold;
+   src:url(../media/fonts/helvetica-bold.otf);
+}
+strong{font-family: helvetica-bold;}
+body{
+	background:url(../media/images/ice.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	width:100%;
+	height:100%;
+}
+.navbar-inverse .navbar-toggle {
+border-color: white ;
+}
+.navbar-toggle .icon-bar{border:1px solid #FFF;}
+.navbar-nav li a:hover{background:none;}
+.navbar-nav li:hover{ border-bottom:1px solid #FFF !important;}
+.aeroplane_padding{background: none !important;
+border: none !important;}
+.jumbotron{background:none !important; padding-top: 114px !important;}
+.form-control{background:none !important; color:#fff !important;}
+/*.navbar-toggle{margin-top: 25px !important;margin-bottom: 14px !important;}*/
+.navbar-brand{padding: 8px 15px !important;}
+.icon-info-sign {
+background-position: -120px -96px;
+display:none;
+}
+.icon-plane {
+background-position: -168px -120px;
+display:none;
+}
+.icon-camera {
+background-position: -120px -48px;
+display:none;
+}
+[class^="icon-"], [class*=" icon-"] {
+display: inline-block;
+width: 14px;
+height: 14px;
+margin-top: 1px;
+line-height: 14px;
+vertical-align: text-top;
+background-image:url(../bootstrap/img/glyphicons-halflings.png);
+background-repeat: no-repeat;
+}
+.btn-small [class^="icon-"], .btn-small [class*=" icon-"] {
+margin-top: 0;
+}
+.btn-group {
+position: absolute;
+right: 22px;
+top: 7px;display: inline-block;}
+.btn-small {
+padding: 2px 10px;
+}
+.hovercontent:hover{}
+
+.navbar-inverse
+{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c5deea+0,8abbd7+32,066dab+100 */
+background: #c5deea; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #c5deea 0%, #8abbd7 32%, #066dab 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #c5deea 0%,#8abbd7 32%,#066dab 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #c5deea 0%,#8abbd7 32%,#066dab 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5deea', endColorstr='#066dab',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.Private{color: white;
+font-family: helvetica-light;
+font-size: 26px;text-align:justify;}
+.Charter
+{font-family: helvetica-light;
+font-size: 26px; color:white; font-weight:bold; text-decoration:underline;}
+.thumbnail_opacity{background:url(../media/images/backgroundcolor.png);border:none;}
+.mes_cuml{color:white;font-family: helvetica-light;
+font-size: 20px;}
+.mes_cuml1{color:white;font-family: helvetica-light;}
+.Executive{color:#333;font-family: helvetica-light; font-size:34px;}
+.Aircraft{color:#2185c5;font-size:34px;font-family: helvetica-light;}
+.Cuml{color:#7ecefd;font-size:24px;font-family: helvetica-light;}
+.list{color:#CCC; font-size:20px;font-family: helvetica-light;}
+.private{color: #fff;
+font-family: helvetica-light;
+font-size: 34px;
+}
+.remove_white{background:none;border:0px solid white;}
+.color_change{color:white;}
+.Donec{ text-transform:uppercase;color:#7ecefd;font-size:18px;font-family: helvetica-light;text-align:center;}
+.lorem_white{color:white; font-size:14px;}
+.carousel-indicators li{border:0px solid white;}
+.carousel-indicators .active{ background:none;}
+.boxshadow{box-shadow: 3px 2px 15px white;}
+.fagrouptext, .fasuitcasetext, .fawifitext, .faplugtext, .famedkittext, .faglasstext
+{
+	font-size: 75px !important;color: white;background: #2185C5;border-radius: 50%;text-align: center;padding: 21px;-webkit-transition:all 1s ease-in-out;-moz-transition:all 1s ease-in-out;-ms-transition:all 1s ease-in-out;-o-transition:all 1s ease-in-out; cursor:pointer;
+}
+.fagrouptext:hover{background:#fff;color:#2185C5;}
+.fasuitcasetext:hover{background:#fff;color:#2185C5;}
+.fawifitext:hover{background:#fff;color:#2185C5;}
+.faplugtext:hover{background:#fff;color:#2185C5;}
+.famedkittext:hover{background:#fff;color:#2185C5;}
+.faglasstext:hover{background:#fff;color:#2185C5;}

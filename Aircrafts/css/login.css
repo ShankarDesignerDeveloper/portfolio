@@ -1,0 +1,34 @@
+@font-face {
+   font-family: glyphicons-halflings-regular;
+   src:url(../media/fonts/glyphicons-halflings-regular.ttf);
+}
+@font-face {
+   font-family: helvetica-light;
+   src:url(../media/fonts/helvetica-light.ttf);
+}
+@font-face {
+   font-family: helvetica-bold;
+   src:url(../media/fonts/helvetica-bold.otf);
+}
+strong{font-family: helvetica-bold;}
+body{
+	background:url(../media/images/ice.jpg) no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	width:100%;
+	height:100%;
+}
+.logo_down{padding-top:3%;}
+
+.mainbox{width: 300px;
+height: 400px;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+background:url(../media/images/mobile_background.png) no-repeat;}
+.userlogin{font-family: helvetica-bold; color:#fff; font-size:16px;margin-left:7px;margin-top:10px;}
+.formdown{margin-top:20px;}
